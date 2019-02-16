@@ -1,0 +1,398 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+ u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    height: 100%;
+    
+}
+body{
+    background: rgb(40, 169, 173);
+}
+.wrap{
+    width:1000px;
+    margin: 0 auto;
+}
+.header{
+    box-sizing: border-box;
+    position: relative;
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+}
+.title{
+    float: right;
+}
+.title ul{
+    margin-top:20px;
+}
+.title li{
+    display: inline;
+    padding:20px;
+}
+.title a:hover{
+    color:white;
+}
+.title a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "標楷體";
+    color:black;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    position: relative;
+}
+.footer-logo{
+    float: left;
+    margin-left: 120px;
+}
+.footer-information{
+    float: left;
+    margin-left: 100px;
+    margin-top:40px;
+    font-size: 20px;
+    font-family: "標楷體";
+    color:white;
+}
+.footer-follow{
+    float: left;
+    margin-left: 100px;
+    margin-top:40px;
+    font-size: 20px;
+    font-family: "標楷體";
+    color:white;
+}
+.pics{
+    margin-left:350px;
+    margin-top: 50px;
+}
+.content{
+    position: relative;
+    margin-top: 100px;
+}
+.list{
+    float: left;
+}
+.list-content{
+    float: right;
+    margin-right: 50px;
+    width: 780px;
+}
+.list h3{
+    font-size: 35px;
+    color: crimson;
+    margin-bottom: 20px;
+}
+.list a{
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    border-bottom: 1px solid white;
+}
+.list a:hover{
+    color:white;
+}
+.list li{
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+.list li:hover{
+    background: pink;
+    border-radius: 5%;
+}
+.list-content li{
+    float: left;
+}
+.box {
+    display: inline;
+    position: relative;
+}
+.box img{
+    float: left;
+    border-radius: 3% 0% 0% 3%;
+}
+.box-content{
+    float: left;
+    background:beige;
+    height: 300px;
+    width: 150px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    border-radius: 0% 3% 3% 0%;
+}
+.box h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: cadetblue;
+}
+.box p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.box .p{
+    color: red;
+    font-size: 25px;
+}
+.box i{
+    color: gray;
+    text-align: center;
+}
+.box input{
+    margin-left: 50px;
+    margin-top:20px;
+}
+.ad{
+    position: fixed;
+    bottom:60px;
+    right: 50px;
+}
+.hot{
+    position: relative;
+}
+.hot-box{
+    float: left;
+    background: url(../img/2K19.png);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box1{
+    float: left;
+    background: url(../img/daylight.png);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box2{
+    float: left;
+    background: url(../img/ld2.jpg);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box3{
+    float: left;
+    background: url(../img/mario.jpg);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box4{
+    float: left;
+    background: url(../img/minecraff.jpg);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box5{
+    float: left;
+    background: url(../img/rockman.jpeg);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box6{
+    float: left;
+    background: url(../img/ps4.png);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box7{
+    float: left;
+    background: url(../img/xbox360.jpg);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box8{
+    float: left;
+    background: url(../img/wii.jpg);
+    width:350px;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+}
+.hot-box:hover .box1{
+    bottom: 0;
+}
+.hot-box1:hover .box1{
+    bottom: 0;
+}
+.hot-box2:hover .box1{
+    bottom: 0;
+}
+.hot-box3:hover .box1{
+    bottom: 0;
+}
+.hot-box4:hover .box1{
+    bottom: 0;
+}
+.hot-box5:hover .box1{
+    bottom: 0;
+}
+.hot-box6:hover .box1{
+    bottom: 0;
+}
+.hot-box7:hover .box1{
+    bottom: 0;
+}
+.hot-box8:hover .box1{
+    bottom: 0;
+}
+.hot-content{
+    float: right;
+    width:800px;
+}
+.box1{
+    background: rgb(231, 219, 219);
+    width: 100%;
+    position: absolute;
+    bottom: -120px;
+    transition: all 1s;
+}
+.box1 h2{
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+    padding: 10px;
+}
+.box1 p{
+    font-size: 20px;
+    text-align: center;
+    font-family: "標楷體";
+
+}
+.box1 input{
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h2 h2{
+ 
+    font-size: 45px;
+    margin-left: 530px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.inputt{
+    margin-left: 350px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+.inputt .usename,.inputt .passwd{
+    width: 200px;
+    height:20px;
+}
+.inputt .in ,.inputt .out{
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+}
